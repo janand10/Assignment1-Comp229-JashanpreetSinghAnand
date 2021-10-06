@@ -1,0 +1,56 @@
+table {
+    font-family: verdana;
+    font-weight:bold;
+    font-style:normal;
+    color: black;
+    border: 5px double;
+}
+input[type=text],input[type=number] 
+{
+    width: 100%;
+    padding: 4px 30px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+input[type=radio] {
+    display:inline-block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+
+nav {
+    background: dimgray;
+}
+
+    nav > ul {
+        margin: 0;
+        padding: 20px;
+    }
+
+        nav > ul > li {
+            list-style-type: none;
+            margin: 0 15px;
+        }
+
+li > a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+}
+.SubmitArea {
+    grid-area: SubmitArea;
+    text-align: center;
+}
+
+

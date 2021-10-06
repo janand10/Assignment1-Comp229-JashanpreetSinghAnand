@@ -1,0 +1,97 @@
+﻿
+body {
+    background: #CD5C5C;
+    margin: 0;
+}
+ {
+    font-family: sans-serif;
+}
+form {
+  display: none;
+}
+form.active {
+  display: block;
+}
+header {
+    background: #CD853F;
+    line-height: 3rem;
+    color: #fff;
+}
+.card {
+    min-width: 400px;
+    background: white;
+    min-height: 500px;
+    display: inline-block;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px #CD853F;
+}
+.card_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+    .card_header > div {
+        height: 30px;
+        text-align: center;
+        width: calc(50% - 15px);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #CD853F;
+        padding: 5px;
+    }
+        .card_header > div.show {
+            background: #CD853F;
+        }
+.form-controll {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.form-controll > * {
+  width: 50%;
+}
+.form-controll > input,
+.form-controll > select {
+  border: 0;
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  margin: 0;
+  text-align: center;
+  width: 100% !important;
+}
+button {
+    width: 100% !important;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    background: #CD853F;
+    cursor: pointer;
+    color: #fff;
+    font-size: larger;
+}
+#Imperial_button {
+cursor: pointer;}
+
+#Metric_button{
+  cursor: pointer;
+}
+
+.back{
+color: #fff;
+  font-size: larger;
+  font-weight: bold;
+}

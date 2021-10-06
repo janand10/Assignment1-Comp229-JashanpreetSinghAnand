@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/assignment1.css" />
+    
+</head>
+<body>
+    <a href="../index.html"><button class="back" type="button">Back to Home page</button></a>
+    <div class="card">
+
+        <div class="card_header">
+            <div class="show" id="Metric_button">Metric BMR calculator (cm/Kg)</div>
+            <div id="Imperial_button">Imperial BMR Calculator (Feet/inches/pounds)</div>
+        </div>
+        <div class="card_body">
+            <div>
+                <form id="Metric" class="active">
+                    <div class="form-controll">
+                        <label for="height_cm">Height</label>
+                        <input type="number"
+                               placeholder="180CM"
+                               id="height_cm"
+                               required />
+                    </div>
+                    <div class="form-controll">
+                        <label for="weight_kg">Weight: </label>
+                        <input type="number"
+                               placeholder="80kg"
+                               id="weight_kg"
+                               minlength="2"
+                               maxlength="3"
+                               required />
+                    </div>
+                    <div class="form-controll">
+                        <label for="age_Metric">Age: </label>
+                        <input type="number"
+                               placeholder="20"
+                               minlength="1"
+                               maxlength="2"
+                               id="age_Metric"
+                               required />
+                    </div>
+                    <div class="form-controll">
+                        <label for="Gender_Metric">Gender: </label>
+                        <select id="Gender_Metric" required>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </div>
+                    <div class="form-controll">
+                        <label for="activity_Metric">activity: </label>
+                        <select id="activity" required>
+                            <option value="1">Sedentary</option>
+                            <option value="2">Lightly active</option>
+                            <option value="3">Moderately active</option>
+                            <option value="4">Very active</option>
+                            <option value="5">Highly active</option>
+                        </select>
+                    </div>
+                    <div class="form-controll">
+                        <h1>BMR : <span id="result">---</span></h1>
+                        <h1>calories : <span id="result_cal">---</span></h1>
+                    </div>
+                    <div class="form-controll">
+                        <button type="submit">Calculate</button>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <form id="Imperial">
+                    <div class="form-controll">
+                        <label for="height_feet">Height:</label>
+                        <input type="number"
+                               placeholder="5 feet"
+                               id="height_feet"
+                               minlength="1"
+                               maxlength="2"
+                               required />
+                    </div>
+                    <div class="form-controll">
+                        <label for="height_inches">Height:</label>
+                        <input type="number"
+                               placeholder="6 inches"
+                               id="height_inches"
+                               minlength="1"
+                               maxlength="2"
+                               required />
+                    </div>
+                    <div class="form-controll">
+                        <label for="weight_kg">Weight:</label>
+                        <input type="number"
+                               placeholder="20 pounds"
+                               id="weight_pounds"
+                               minlength="1"
+                               maxlength="2"
+                               required />
+                    </div>
+                    <div class="form-controll">
+                        <label for="age_Imperial">Age: </label>
+                        <input type="number"
+                               placeholder="20"
+                               id="age_Imperial"
+                               minlength="1"
+                               maxlength="2"
+                               required />
+                    </div>
+                    <div class="form-controll">
+                        <label for="Gender_Imperial">Gender: </label>
+                        <select id="Gender_Imperial" required>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </div>
+                    <div class="form-controll">
+                        <label for="activity_Imperial">activity: </label>
+                        <select id="activity_Imperial" required>
+                            <option value="1">Sedentary</option>
+                            <option value="2">Lightly active</option>
+                            <option value="3">Moderately active</option>
+                            <option value="4">Very active</option>
+                            <option value="5">Highly active</option>
+                        </select>
+                    </div>
+                    <div class="form-controll">
+                        <h1>Imperial : <span id="result2">---</span></h1>
+                        <h1>Calories : <span id="result2_cal">---</span></h1>
+                    </div>
+                    <div class="form-controll">
+                        <button type="submit">Calculate</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="card_result"></div>
+
+    </div>
+
+    <script src="./assignment1.js"></script>
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	<link rel="stylesheet" href="styles/main.css" />
+   </head>
+   <body style="background-color:antiquewhite">
+
+
+       <header class="college">
+           <a href="https://www.centennialcollege.ca/" target="_blank"><img src="../../images/assignment4/college.png" height="150" width="200"></a>
+
+       </header>
+       <nav>
+           <ul class="menu">
+
+               <li><a href="../../index.html" target="_blank"><strong>HOME PAGE</strong></a></li>
+           </ul>
+       </nav>
+
+       <div align="center">
+           <h1> CENTENNIAL COLLEGE </h1>
+           <h2> Continuing Education Course/ Instructor Evaluation </h2>
+       </div>
+       
+           <form>
+               <table align="center">
+
+                   <tr>
+                       <td><label for="CourseName">Course Name/Code:</label></td>
+                       <td><input type="text" id="CourseName" required /></td>
+                   </tr>
+                   <tr>
+                       <td><label for="Semester">Semester:</label></td>
+                       <td><input type="radio" name="semester" id="Fall" value="Fall" />Fall</td>
+                       <td><input type="radio" name="semester" id="Winter" value="Winter" />Winter</td>
+                       <td><input type="radio" name="semester" id="Summer/Spring" value="Summer/Spring" />Summer/Spring</td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <label for="Year">Year:</label>
+                           <select id="Year" style="margin-left:800px">
+                               <option value="">None</option>
+                               <option value="s2019">Summer 2019</option>
+                               <option value="w2019">Winter 2019</option>
+                               <option value="f2019">Fall 2019</option>
+                               <option value="s2020">Summer 2020</option>
+                               <option value="w2020">Winter 2020</option>
+                               <option value="f2020">Fall 2020</option>
+                               <option value="s2021">Summer 2021</option>
+                               <option value="w2021">Winter 2021</option>
+                               <option value="f2021">Fall 2021</option>
+                           </select>
+                       </td>
+                   </tr>
+
+                   <tr>
+                       <td><label for="Instructor">Instructor:</label></td>
+                       <td><input type="text" id="Instructor" required /></td>
+                   </tr>
+
+                   <tr>
+
+                       <td><h3 style="border:3px solid black">Instructor</h3></td>
+
+
+                   </tr>
+
+                   <tr>
+                       <td>How would you rate the instructor's:</td>
+                   </tr>
+                   <tr>
+                       <td>1. knowledge of subject?</td>
+                       <td><input name="knowledge" id="Excellent" type="radio" value="Excellent" />Excellent</td>
+                       <td><input name="knowledge" id="Good" type="radio" value="Good" />Good</td>
+                       <td><input name="knowledge" id="Fair" type="radio" value="Fair" />Fair</td>
+                       <td><input name="knowledge" id="Not Satisfactory" type="radio" value="Not Satisfactory" />Not Satisfactory</td>
+                   </tr>
+                   <tr>
+                       <td>2. helpfullness?</td>
+                       <td><input style="margin-left:20px" name="status" id="Excellent" type="radio" value="Excellent" />Excellent</td>
+                       <td><input name="status" id="Good" type="radio" value="Good" />Good</td>
+                       <td> <input name="status" id="Fair" type="radio" value="Fair" />Fair</td>
+                       <td><input name="status" id="Not Satisfactory" type="radio" value="Not Satisfactory" />Not Satisfactory</td>
+                   </tr>
+                   <tr>
+                       <td>3. courtesy and respect for all students?</td>
+                       <td><input name="respect" id="Excellent" type="radio" value="Excellent" />Excellent</td>
+                       <td><input name="respect" id="Good" type="radio" value="Good" />Good</td>
+                       <td><input name="respect" id="Fair" type="radio" value="Fair" />Fair</td>
+                       <td><input name="respect" id="Not Satisfactory" type="radio" value="Not Satisfactory" />Not Satisfactory</td>
+                   </tr>
+                   <tr>
+                       <td>4. communication skills?</td>
+                       <td><input name="skills" id="Excellent" type="radio" value="Excellent" />Excellent</td>
+                       <td><input name="skills" id="Good" type="radio" value="Good" />Good</td>
+                       <td><input name="skills" id="Fair" type="radio" value="Fair" />Fair</td>
+                       <td><input name="skills" id="Not Satisfactory" type="radio" value="Not Satisfactory" />Not Satisfactory</td>
+                   </tr>
+                   <tr>
+                       <td>5. overall performance?</td>
+                       <td><input name="performance" id="Excellent" type="radio" value="Excellent" />Excellent</td>
+                       <td> <input name="performance" id="Good" type="radio" value="Good" />Good</td>
+                       <td><input name="performance" id="Fair" type="radio" value="Fair" />Fair</td>
+                       <td><input name="performance" id="Not Satisfactory" type="radio" value="Not Satisfactory" />Not Satisfactory</td>
+                   </tr>
+                   <tr>
+                       <td><h3 style="border:3px solid black">Course</h3></td>
+                   </tr>
+                   <tr>
+                       <td> 6. How would you rate the course materials?</td>
+                       <td><input name="materials" id="Excellent" type="radio" value="Excellent" />Excellent</td>
+                       <td><input name="materials" id="Good" type="radio" value="Good" />Good</td>
+                       <td><input name="materials" id="Fair" type="radio" value="Fair" />Fair</td>
+                       <td><input name="materials" id="Not Satisfactory" type="radio" value="Not Satisfactory" />Not Satisfactory</td>
+                   </tr>
+                   <tr>
+                       <td> 7. How much did this course meet your expectations?</td>
+                       <td><input name="expectations" id="Excellent" type="radio" value="Excellent" />Excellent</td>
+                       <td><input name="expectations" id="Good" type="radio" value="Good" />Good</td>
+                       <td><input name="expectations" id="Fair" type="radio" value="Fair" />Fair</td>
+                       <td><input name="expectations" id="Not Satisfactory" type="radio" value="Not Satisfactory" />Not Satisfactory</td>
+                   </tr>
+                   <tr>
+                       <td>8. How would you rate this course(Overall)?</td>
+                       <td><input name="rate" id="Excellent" type="radio" value="Excellent" />Excellent</td>
+                       <td><input name="rate" id="Good" type="radio" value="Good" />Good</td>
+                       <td><input name="rate" id="Fair" type="radio" value="Fair" />Fair</td>
+                       <td><input name="rate" id="Not Satisfactory" type="radio" value="Not Satisfactory" />Not Satisfactory</td>
+                   </tr>
+                   <tr>
+                       <td><h3 style="border:3px solid black">General Information</h3></td>
+                   </tr>
+                   <tr>
+                       <td>9. Was the course outline reviewed/explained at the beginning of your course?</td>
+                       <td><input name="outline" id="Yes" type="radio" value="Yes" />Yes</td>
+                       <td><input name="outline" id="No" type="radio" value="No" />No</td>
+                       <td><input name="outline" id="Not Sure" type="radio" value="Not Sure" />Not Sure</td>
+                   </tr>
+                   <tr>
+                       <td>10. Would you recommend this course to a friend with same interests?</td>
+                       <td><input name="recommend" id="Yes" type="radio" value="Yes" />Yes</td>
+                       <td><input name="recommend" id="No" type="radio" value="No" />No</td>
+                       <td><input name="recommend" id="Not Sure" type="radio" value="Not Sure" />Not Sure</td>
+                   </tr>
+                   <tr>
+                       <td><h3 style="border:3px solid black">Any Other Comments(please use back of the computer card or this paper if necessary)</h3></td>
+                   </tr>
+
+                   <tr>
+                       <td>
+                           <p>11.What is the best thing about this course?</p>
+                           <textarea cols="100"
+                                     rows="8"></textarea>
+                       </td>
+                   </tr>
+
+                   <tr>
+                       <td>
+                           <p>12.How could we improve this course?</p>
+                           <textarea cols="100"
+                                     rows="8"></textarea>
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <p>13.Other:</p>
+                           <textarea cols="100"
+                                     rows="8"></textarea>
+                       </td>
+                   </tr>
+
+
+               </table>
+         
+
+       <footer>
+           <div align="center" class="SubmitArea">
+               <input type="submit" value="Submit" class="button"/>
+               <input type="reset" value="Reset" class="button" />
+               <p>Thank You! We pay attention to your feedback!</p>
+               Web-<em><a href="https://www.centennialcollege.ca/programs-courses/part-time/" target="_blank">www.centennialcollege.ca/continuing education</a></em>
+               Email-  <a href="mailto:continuingeducation@centennialcollege.ca">
+                   continuingeducation@centennialcollege.ca
+               </a>
+           </div>
+       </footer>
+       <footer>
+           <p>&copy;Copyright Jashanpreet Singh Anand #301168003 - COMP 213 - Winter 2021 - (Assignment 4)</p>
+
+       </footer>
+
+</form>
+
+
+
+   </body>
+
+
+</html>
